@@ -21,3 +21,4 @@ plt.plot(X_train,SimpleLinearRegression.predict(X_train))
 plt.show()  
 from sklearn.metrics import r2_score r2_score(y_test,y_predict) 
 sns.heatmap(DataFrame.corr())
+
